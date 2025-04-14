@@ -1,0 +1,92 @@
+<!-- 1101 기태연 -->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기본 레이아웃_시멘틱 태그</title>
+    <style>
+        header {
+            background-color: gray;
+            text-align: center;
+            padding: 25px;
+        }
+
+        .navbar {
+            background-color: black;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navbar > ul {
+            display: flex;
+            gap: 150px;
+        }
+
+        .navbar > img {
+            display: flex;
+            max-width: 50px;
+            display: inline-block;
+        }
+
+        .navbar > ul > li > a {
+            color: white;
+            text-decoration: none;
+        }
+
+        aside {
+            width: 20%;
+            float: left;
+            padding: 10px;
+        }
+
+        section {
+            width: 40%;
+            float: left;
+            padding: 10px;
+        }
+
+        article {
+            width: 40%;
+            float: left;
+            padding: 10px;
+        }
+        
+        footer {
+            background-color: gray;
+            display: block;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>header</h2>
+    </header>
+    <nav class="navbar"></nav>
+    <img src="" alt="로고">
+    <ul>
+        <li><a href="">홈</a></li>
+        <li><a href="">자기소개</a></li>
+        <li><a href="">포트폴리오</a></li>
+        <li><a href="">연락처</a></li>
+    </ul>
+<main>
+    <aside>
+        <h2>This is aside</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae in nesciunt maiores labore eos libero deleniti assumenda expedita dolorum quod dolores rerum esse temporibus, odio, suscipit iure id tempora nihil.</p>
+    </aside>
+    <section>
+        <h2>This is section</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis delectus fuga doloribus earum placeat laborum impedit reprehenderit tenetur odio eligendi voluptate, quisquam, magni molestiae. Itaque sint corrupti debitis optio enim!</p>
+    </section>
+    <article>
+        <h2>This is article</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem nesciunt aut nisi officiis eveniet, omnis expedita, dicta modi delectus illo quia minus sed molestiae veniam, velit placeat deleniti dolores laborum.</p>
+    </article>
+</main>
+</body>
+</html>

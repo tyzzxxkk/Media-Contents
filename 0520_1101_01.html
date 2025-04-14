@@ -1,0 +1,32 @@
+<!--1101 기태연-->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css 가상 클래스 선택자</title>
+    <style>
+        li {color : green; font-size: 20px;}
+        li:hover {background: yellow;}
+        a:link {color: red;}
+        a:visited {color:blue;}
+        ul {list-style-type: none;}
+        a {text-decoration: none;}
+        h2::first-letter {color:red;}
+    </style>
+</head>
+<body>
+    <h2>1학기 과목</h2>
+    <hr>
+    <div>
+        <div>미디어콘탠츠일반 <strong>학습내용</strong></div>
+         <ul>
+          <a href = "https://m.naver.com/"><li>HTML</li></a>
+          <a href = "https://www.daum.net/"><li><strong>CSS</strong></li></a> 
+          <a href = "https://www.e-mirim.hs.kr/main.do"><li>JavaScript</li></a>
+          </ul>
+        <div>60점 이하는 F!</div>
+    </div>
+</body>
+</html>

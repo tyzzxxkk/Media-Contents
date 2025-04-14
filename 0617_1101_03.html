@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>입력폼_체크박스, 라디오버튼 등</title>
+    <style>
+        ul {
+            list-style: none;
+        }
+     </style>
+    </head>
+<body>
+    <h1>나의 음식 취향</h1>
+    <form method="post" action="/fa_fruit.php"></form>
+    <fieldset>
+    <legend>탕수육 취향은?</legend>
+    <ul>
+        <li>
+            <label for="b_eat">부먹</label>
+            <input type="radio" id="b_eat" name="eat" value="b_eat">
+        </li>
+        <li>
+            <label for="b_eat">찍먹</label>
+            <input type="radio" id="t_eat" name="eat" value="t_eat">
+        </li>
+    </ul>
+    </fieldset>
+    <fieldset>
+            <legend>좋아하는 과일은?</legend>
+            <ul>
+                <li>
+                    <label for="apple">사과</label>
+                    <input type="checkbox" id="apple" name="fa_fruit" value="apple">
+                </li>
+                <li>
+                    <label for="pear">배</label>
+                    <input type="checkbox" id="pear" name="fa_fruit" value="pear">
+                </li>
+                <li>
+                    <label for="pine">파인애플</label>
+                    <input type="checkbox" id="pine" name="fa_fruit" value="pine">
+                </li>
+                <li>
+                    <label for="peach">복숭아</label>
+                    <input type="checkbox" id="peach" name="fa_fruit" value="peach">
+                </li>
+                <li>
+                    <lsbel for="grape">포도</lsbel>
+                    <input type="checkbox" id="grape" name="fa_fruit" value="grape">
+                </li>
+             </ul>
+             </fieldset>
+             <br> 
+             <button type="submit">제출하기</button>
+             <button type="reset">리셋하기</button>
+             <button type="button" onclick="alert('좋아하는 여름 과일!!')">버튼</button>
+            </form>
+</body>
+</html>

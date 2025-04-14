@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gallery {
+            display: inline-block;
+            border: 2px soild hsl(0, 0%, 60%);
+            width: 400px;
+        }
+        .gallery .description {
+            padding: 10px;
+            text-align: center;
+        }
+        .gallery:hover {
+        border : 2px solid hsl(0, 0%, 30%)
+        }
+        .gallery img {
+            width: 100px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <a href="images/">
+            <img src="images/방탄소년단.jpg" alt="방탄소년단">
+        </a>
+        <div class="description">방탄소년단</div>
+    </div>
+    <div class="gallery">
+        <a href="images/stars.jpg">
+            <img src="images/stars.jpg" alt="별">
+        </a>
+        <div class="description">별</div>
+    </div>
+    <div class="gallery">
+        <a href="images/붉은 노을.jpg">
+            <img src="images/붉은 노을.jpg" alt="붉은 노을">
+        </a>
+        <div class="description">붉은 노을</div>
+    </div>
+</body>
+</html>

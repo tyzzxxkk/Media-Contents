@@ -1,0 +1,70 @@
+<!--1101 기태연-->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기타 폼 요소들</title>
+</head>
+<style>
+    ul {
+        list-style: none;
+    }
+</style>
+<body>
+    <h1>상품주문서</h1>
+    <form>
+        <fieldset>
+            <legend>개인정보</legend>
+            <ul>
+                <li>
+                    <label for="pro_name">이름</label>
+                    <input type="text" id="pro_name" palceholder="여백없이 입력" readonly>
+                </li>
+                <li>
+                    <label for="">연락처</label>
+                    <input type="tel" id="pro_name" placeholder="연락 가능한 번호" readonly>
+                </li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>배송지 정보</legend>
+            <ul>
+                <li>
+                    <label for="pro_addr">주소</label>
+                    <input type="text" id="" placeholder="">
+                </li>
+                <li>
+                    <lable for="pro_tel02">전화번호</lable>
+                    <input type="tel" id="pro_tel02" required placeholder="">
+                </li>
+                <li>
+                    <lable for="pro_memo">메모</lable>
+                    <input type="pro_memo" cols="28" rows="2">
+                </li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>주문정보</legend>
+            <ul>
+                    <label><input type="checkbox">빠삐코</label>
+                    <label><input type="number" value="0" max="10">개</label>
+                </li>
+                <li>
+                    <label><input type="checkbox">녹차마루</label>
+                    <label><input type="number" value="0" max="10">개</label>
+                </li>
+                <li>
+                    <label><input type="checkbox">설레임</label>
+                    <label><input type="number" value="0" max="10">개</label>
+                </li>
+            </ul>
+        </fieldset>
+        <input type="submit" value="주문하기">
+        <input type="reset" value="다시작성">
+    </form>
+</body>
+</html>
